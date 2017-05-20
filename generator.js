@@ -5,8 +5,8 @@ module.exports.GenerateChunk = function(x, y, z, seed) {
     for (var j = 0; j < 16; j++) {
         for (var i = 0; i < 16; i++) {
             for (var k = 0; k < 16; k++) {
-                if (j < 2) data[j * 256 + i * 16 + j] = 1;
-                else data[j * 256 + i * 16 + j] = 0;
+                if (j < 2) data[j * 256 + i * 16 + k] = 1;
+                else data[j * 256 + i * 16 + k] = 0;
             }
         }
     }
