@@ -1,0 +1,10 @@
+{
+    "name": "@voxey/generator",
+    "version": "0.1.0",
+    "author": "Adrian J. Collado <acollado@polaritech.com> (https://adriancollado.me)",
+    "description": "Generates objects in a voxel world based on input parameters.",
+    "repository": "Voxey/Generator",
+    "license": "MIT",
+    "homepage": "https://voxey.io",
+    "main": "generator.js"
+}
